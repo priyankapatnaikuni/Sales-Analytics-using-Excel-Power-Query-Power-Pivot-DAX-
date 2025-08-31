@@ -1,11 +1,9 @@
-# Sales-Analytics-using-Excel-Power-Query-Power-Pivot-DAX-
-# Sales Analytics Dashboard – Excel (Power Query, Power Pivot, DAX)
 
 ## Project Overview
 This project analyzes sales data from **Ferns N Petals (FNP)**, an online gifting company, using **Excel Power Query, Power Pivot, and DAX**.  
 The goal was to build an **interactive dashboard** that provides business insights on sales performance, customer behavior, product categories, and city-level orders.  
 
-## 🛠 Tools & Techniques
+## Tools & Techniques
 - **Excel Power Query** → Data extraction, cleaning, and transformation  
 - **Excel Power Pivot** → Data modeling with star schema  
 - **DAX (Data Analysis Expressions)** → Calculated columns and measures  
