@@ -1,3 +1,4 @@
+# Sales Analytics Dashboard – Excel (Power Query, Power Pivot, DAX)
 
 ## Project Overview
 This project analyzes sales data from **Ferns N Petals (FNP)**, an online gifting company, using **Excel Power Query, Power Pivot, and DAX**.  
