@@ -2,37 +2,53 @@
 
 ## Project Overview
 This project analyzes sales data from **Ferns N Petals (FNP)**, an online gifting company, using **Excel Power Query, Power Pivot, and DAX**.  
-The goal was to build an **interactive dashboard** that provides business insights on sales performance, customer behavior, product categories, and city-level orders.  
+The goal was to build an **interactive dashboard** that updates in real time based on **slicer and timeline selections**, allowing stakeholders to explore sales performance across occasions, products, cities, and time periods.
+
+---
 
 ## Tools & Techniques
-- **Excel Power Query** → Data extraction, cleaning, and transformation  
-- **Excel Power Pivot** → Data modeling with star schema  
-- **DAX (Data Analysis Expressions)** → Calculated columns and measures  
-- **Pivot Tables & Pivot Charts** → Data analysis and visualization  
-- **Slicers & Timelines** → Interactive filtering  
+- **Power Query** → Data extraction, cleaning, and transformation  
+- **Power Pivot** → Data modeling with star schema relationships  
+- **DAX (Data Analysis Expressions)** → Calculated columns and measures for KPIs  
+- **Pivot Tables & Pivot Charts** → Data aggregation and visualization  
+- **Slicers & Timelines** → Interactive filtering across occasions, cities, and dates  
+
+---
+
+## Key Performance Indicators (KPIs)
+The dashboard highlights 4 primary KPIs (all of which update dynamically when slicers are applied):  
+- **Total Revenue** – Overall sales performance  
+- **Total Orders** – Number of orders placed  
+- **Average Delivery Time (days)** – Fulfillment efficiency  
+- **Average Customer Spend** – Average order value per customer  
+
+---
 
 ## Dashboard Features
-- **Total Orders & Revenue** → Track key KPIs in real time  
-- **Average Delivery Time** → Analyze fulfillment efficiency  
-- **Customer Spending Analysis** → Average order value across customers  
-- **Monthly Sales Trends** → Identify seasonal/occasion-based peaks  
-- **Top Products & Categories** → Revenue contributions by product line  
-- **Top Cities** → Geographic performance by orders  
-- **Correlation Analysis** → Impact of order quantity on delivery time (r = 0.34, weak positive correlation)  
+- **Revenue by Occasion** – Identify which events drive sales (e.g., Raksha Bandhan, Diwali, Valentine’s Day)  
+- **Revenue by Product Category & Top Products** – Understand top-performing categories and items  
+- **Monthly Sales Trend** – Analyze seasonal performance across months  
+- **Top 10 Cities by Orders** – Discover geographic sales leaders  
+- **Order Patterns by Day & Hour** – Explore when customers place and receive orders  
+- **Interactive Slicers/Timelines** – Filter data by occasion, city, or order/delivery date to view tailored insights  
 
-## Key Insights
-- Generated **₹4,08,194 in revenue** from 149 orders  
-- Average delivery time: **~5.4 days**  
-- Customers spend an average of **₹2,739 per order**  
-- Sales peaked during **Raksha Bandhan, Diwali, and Valentine’s Day**  
-- **Colors, sweets, and soft toys** were top-selling categories  
-- Top ordering cities include **Delhi, Mumbai, Bangalore, and Hyderabad**  
+---
+
+## Example Insights
+Because the dashboard is interactive, results change depending on slicer selections.  
+Some general patterns observed:  
+- **Seasonal Peaks:** Sales surge around festivals and special occasions (e.g., Raksha Bandhan, Diwali, Valentine’s Day).  
+- **High-Revenue Categories:** Colors, sweets, and soft toys contribute a significant share of revenue.  
+- **Customer Spending:** On average, customers spend between **₹2,700–₹3,500 per order**, though this varies by occasion.  
+- **Delivery Efficiency:** Orders take about **5 days on average** for delivery, with variation for high-demand events.  
+- **City Trends:** Metro areas such as Delhi, Mumbai, Bangalore, and Hyderabad dominate order volume.  
+
+---
 
 
 ## Business Impact
-This dashboard helps stakeholders:
-- Monitor revenue and orders in real-time  
-- Optimize **supply chain & delivery timelines**  
-- Identify **top-performing products and cities**  
-- Plan **marketing campaigns** around high-demand occasions  
-
+This interactive dashboard empowers stakeholders to:  
+- Track **real-time KPIs** (orders, revenue, delivery times, customer spending)  
+- Drill down into sales by **occasion, product, category, and city**  
+- Identify **seasonal peaks** and optimize marketing campaigns  
+- Improve **supply chain and delivery timelines** through data-driven insights  
